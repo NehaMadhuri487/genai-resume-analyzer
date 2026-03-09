@@ -28,16 +28,17 @@ Built using Python, Streamlit, and LLM APIs.
 
 ---
 
+
 ## Project Structure
 
-```
-project-folder
+genai-resume-analyzer
 │
-├── app.py
-├── requirements.txt
-└── README.md
-```
-
+├── app.py              # Streamlit application interface
+├── ai_analyzer.py      # AI analysis logic for resume evaluation
+├── ats_score.py        # Calculates ATS score
+├── pdf_parser.py       # Extracts text from resume PDF
+├── requirements.txt    # Python dependencies
+└── README.md           # Project documentation
 ---
 
 ## Installation
